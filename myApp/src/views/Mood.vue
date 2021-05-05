@@ -40,7 +40,7 @@ import CardMood from "@/components/CardMood.vue";
 import Basket from "@/components/Basket.vue";
 import ImageGrid from "@/components/ImageGrid.vue";
 	import {rootAPI, rootHebergementImage, labelTest} from "@/data.ts";
-import Defilement from "@/plugins/defilement";
+import Defilement from "@/mixins/defilement";
 export default {
   name: "Mood",
   mixins: [Defilement],

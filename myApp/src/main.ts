@@ -42,6 +42,12 @@ const store = createStore({
       },
       mood: null,
       patients: [{}],
+      uiParameters: [{
+        byDefault: true,
+        scrollingIsActive: false,
+        scrollingSpeed: 1000,
+        scrollingColor: "5fc7ff"
+      }],
     }
   },
   mutations: {
@@ -70,6 +76,9 @@ const store = createStore({
           state.stateDefilement.speedDefilement = 1500 : state.stateDefilement.speedDefilement += amountOfSpeed
     },
 
+    setUiParameters(state: any, uiParameters: any){
+      state.uiParameters = uiParameters;
+    },
   //Mutation to put a mood card in the mood state.
     setMoodState(state: any, moodToSet: any) {
       state.mood = moodToSet;
@@ -94,6 +103,9 @@ const store = createStore({
     patients(state: any) {
         return state.patients;
       },
+    uiParameters(state: any) {
+      return state.uiParameters;
+    },
   }
 })
 const app = createApp(App)

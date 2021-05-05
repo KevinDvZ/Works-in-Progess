@@ -17,7 +17,7 @@
         <ButtonMenu route="/patients" label="Ajouter un patient"></ButtonMenu>
         <ButtonMenu route="/establishment" label="Ajouter un établissement"></ButtonMenu>
         <ButtonMenu route="/word" label="Ajouter un mot"></ButtonMenu>
-        <ButtonMenu route="" label="Affichage et Luminosité"></ButtonMenu>
+        <ButtonMenu route="/uiparameters" label="Gerer l'interface et les fonctionnalités"></ButtonMenu>
         <ButtonMenu route="" label="Fond d'écran et Police"></ButtonMenu>
         <ButtonMenu route="" label="Personnalisation photos"></ButtonMenu>
         <ButtonMenu route="" label="Blog"></ButtonMenu>

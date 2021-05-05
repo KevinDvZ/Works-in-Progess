@@ -11,6 +11,7 @@ import Patients from "@/views/Patients.vue";
 import Mood from "@/views/Mood.vue";
 import Register from "@/views/Register.vue";
 import Login from "@/views/Login.vue";
+import UiParameter from "@/views/UiParameter.vue";
 
 
 const routes: Array<RouteRecordRaw> = [
@@ -57,7 +58,12 @@ const routes: Array<RouteRecordRaw> = [
 		name: "Patients",
 		path: "/patients",
 		component: Patients,
-		}
+		},
+	{
+		name: "UiParameters",
+		path: "/uiparameters",
+		component: UiParameter,
+	}
 ];
 
 const router = createRouter({
